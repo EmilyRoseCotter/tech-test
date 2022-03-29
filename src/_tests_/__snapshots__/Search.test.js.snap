@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search redners Search component correctly 1`] = `
+<DocumentFragment>
+  <input
+    class="search_input"
+    type="text"
+  />
+</DocumentFragment>
+`;
