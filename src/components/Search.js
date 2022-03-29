@@ -1,17 +1,29 @@
-import React, { Fragment, useState } from "react";
+import React, { useState } from "react";
 import "../styles/Search.css";
+import getImages from "../requests/getImages";
 
-function Search() {
+const Search = () => {
   const [value, setValue] = useState();
 
-  return(
-      <>
-      <form className="search-form"> 
-      <input className="search_input" type="text" onChange={(e) => setValue(e.target.value)}/>
-      <button type="submit" className="search-button" >Go!</button>
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    getImages(value);
+  };
+
+  return (
+    <div className="Search">
+      <form className="search-form" onSubmit={handleSubmit}>
+        <input
+          className="search-input"
+          type="text"
+          onChange={(e) => setValue(e.target.value)}
+        />
+        <button className="search-button" type="submit">
+          Go!
+        </button>
       </form>
-      </>
-  )
-}
+    </div>
+  );
+};
 
 export default Search;
