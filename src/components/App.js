@@ -3,6 +3,7 @@ import "../styles/App.css";
 import Search from "./Search";
 
 function App() {
+  const [searchResults, setSearchResults] = useState();
 
   return (
     <div className="App">
@@ -11,7 +12,7 @@ function App() {
         src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg" 
         alt="NasaLogo"
       />
-      <Search />
+      <Search setSearchResults={setSearchResults} />
     </div>
   );
 }
