@@ -1,8 +1,21 @@
+.search-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .search_input {
-  margin: auto;
   width: 20%;
-  height: 50px;
+  height: 30px;
   border-radius: 11px;
-  font-size: 20px;
+  font-size: 15px;
   padding: 0 10px;
+}
+
+.search-button {
+  border-radius: 11px;
+  width: 50px;
+  color: #fff;
+  background-color: #D0312D;
+  margin-left: 5px;
 }

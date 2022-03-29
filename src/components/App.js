@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/App.css";
 import Search from "./Search";
 
 function App() {
+
   return (
     <div className="App">
       <img 
