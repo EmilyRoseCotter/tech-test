@@ -1,9 +1,9 @@
 .App {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .logo {
-    width: 17em;
+  margin: auto;
+  width: 17em;
 }
