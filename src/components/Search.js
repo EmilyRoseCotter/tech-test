@@ -1,10 +1,10 @@
-import React, { Fragment, useState } from 'react';
-import '../styles/Search.css';
+import React, { Fragment, useState } from "react";
+import "../styles/Search.css";
 
 function Search() {
     return(
         <>
-        <input type='text' />
+        <input className="input" type="text" />
         </>
     )
 }
