@@ -14,7 +14,7 @@ function App() {
         alt="NasaLogo"
       />
       <Search setSearchResults={setSearchResults} />
-      <SearchResults/> 
+      <SearchResults results={searchResults}/> 
     </div>
   );
 }
