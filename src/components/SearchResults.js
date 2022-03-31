@@ -1,9 +1,10 @@
 import React from "react";
 import "../styles/SearchResults.css";
+import PropTypes from "prop-types";
 
 const SearchResults = ({results}) => {
   if (!results.length) {
-    return <p className="nr-title">No results</p>
+    return <p className="nr-title">Please enter a valid search term</p>
   } else { 
       return(
         <>
@@ -13,6 +14,12 @@ const SearchResults = ({results}) => {
        </>
      )
    }
+};
+
+SearchResults.propTypes = {
+  results: PropTypes.arrayOf(
+    PropTypes.string
+  ),
 };
 
 export default SearchResults;
