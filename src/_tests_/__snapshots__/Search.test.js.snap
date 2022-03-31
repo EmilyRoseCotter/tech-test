@@ -2,9 +2,23 @@
 
 exports[`Search redners Search component correctly 1`] = `
 <DocumentFragment>
-  <input
-    class="search_input"
-    type="text"
-  />
+  <div
+    class="Search"
+  >
+    <form
+      class="search-form"
+    >
+      <input
+        class="search-input"
+        type="text"
+      />
+      <button
+        class="search-button"
+        type="submit"
+      >
+        Go!
+      </button>
+    </form>
+  </div>
 </DocumentFragment>
 `;
