@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Search redners Search component correctly 1`] = `
+exports[`Search renders Search component correctly 1`] = `
 <DocumentFragment>
   <div
     class="Search"
