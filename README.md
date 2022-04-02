@@ -9,7 +9,7 @@ Users should be able to search for images based on a query using the NASA image 
 ![desktop-view](./src/screenshots/desktop%20view.png)
 
 ### Mobile view
-![mobile-view](./src/screenshots/mobile%20view.png | width: 250)
+![mobile-view]<img src="https://github.com/EmilyRoseCotter/tech-test/blob/9e23abf68134da8a6c33c0deb98abb1b677900e2/src/screenshots/mobile%20view.png" width="250" />
 
 ## Getting started
 
