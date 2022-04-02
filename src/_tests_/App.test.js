@@ -7,5 +7,13 @@ describe("App", () => {
     const { asFragment } = render(<App/>);
 
     expect(asFragment()).toMatchSnapshot(); 
-  })
-})
+  });
+
+  it("renders logo", () => {
+    render(<App />);
+    const imgElement = screen.getByAltText("NasaLogo");
+
+    expect(imgElement).toBeInTheDocument();
+    expect(imgElement).toHaveClass("logo");
+  });
+});
