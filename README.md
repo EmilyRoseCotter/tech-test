@@ -2,7 +2,7 @@
 
 ## About
 
-A mock tech test React build as part of [Manchester Codes](https://www.manchestercodes.com) Front end module. 
+A mock tech test React build, part of [Manchester Codes](https://www.manchestercodes.com) Front end module. 
 Users should be able to search for images based on a query using the NASA image API. 
 
 ### Desktop view
