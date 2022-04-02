@@ -7,11 +7,11 @@ const SearchResults = ({results}) => {
     return <p className="nr-title">Please enter a valid search term</p>
   } else { 
       return(
-        <>
+        <div className="searchResultList">
          {results.map((image) => (
            <img className="card-image" src={image} alt="space-image" />
          ))}
-       </>
+       </div>
      )
    }
 };

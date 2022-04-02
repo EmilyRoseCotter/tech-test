@@ -1,6 +1,16 @@
+.searchResultList {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 .card-image {
   width: 17em;
   margin: auto;
+  padding: 5px;
 }
 
 .nr-title {
