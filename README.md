@@ -6,10 +6,10 @@ A mock tech test React build as part of [Manchester Codes](https://www.mancheste
 Users should be able to search for images based on a query using the NASA image API. 
 
 ### Desktop view
-![Desktop screenshot](./src/screenshots/desktop%20view.png)
+![desktop-view](./src/screenshots/desktop%20view.png)
 
 ### Mobile view
-![Mobile screenshot](./src/screenshots/mobile%20view.png)
+![mobile-view](./src/screenshots/mobile%20view.png =x250)
 
 ## Getting started
 
