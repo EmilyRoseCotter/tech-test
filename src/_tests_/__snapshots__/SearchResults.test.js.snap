@@ -2,15 +2,19 @@
 
 exports[`SearchResults renders SearchResult component correctly 1`] = `
 <DocumentFragment>
-  <img
-    alt="space-image"
-    class="card-image"
-    src="test"
-  />
-  <img
-    alt="space-image"
-    class="card-image"
-    src="test"
-  />
+  <div
+    class="searchResultList"
+  >
+    <img
+      alt="space-image"
+      class="card-image"
+      src="test"
+    />
+    <img
+      alt="space-image"
+      class="card-image"
+      src="test"
+    />
+  </div>
 </DocumentFragment>
 `;
